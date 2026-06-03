@@ -1,0 +1,11 @@
+* @import "tailwindcss"; 
+  > new and more efficient way to inlcude tailwind in CSS file
+  > replaces older method of manually importing tailwind base, utlities and component classes in CSS
+
+* font-optical-sizing:
+  > the typographic practice of adjusting the design of letterforms
+    — such as stroke thickness, character spacing, and contrast
+    —based on the size at which they will be displayed. 
+    It ensures that text remains highly legible at tiny sizes and elegant at massive sizes
+
+* 
