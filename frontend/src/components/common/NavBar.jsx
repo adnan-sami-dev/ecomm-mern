@@ -2,11 +2,12 @@ import React from 'react'
 import {Link} from "react-router-dom"
 import {HiOutlineUser, HiOutlineShoppingBag, HiOutlineSearch, HiOutlineMenu} from "react-icons/hi"
 import Search from "./Search"
+import CartDrawer from '../layout/CartDrawer'
 
 const NavBar = () => {
   return (
     <div>
-        <nav className="container mx-auto flex flex-row justify-between items-center py-4 px-2" >
+        <nav className="container mx-auto flex flex-row justify-between items-center py-3 px-2" >
             {/* Logo */}
             <div>
                 <Link to="/" className="text-2xl font-bold" >
@@ -52,6 +53,8 @@ const NavBar = () => {
                 </button>
             </div>
         </nav>
+
+        <CartDrawer />
     </div>
   )
 }
