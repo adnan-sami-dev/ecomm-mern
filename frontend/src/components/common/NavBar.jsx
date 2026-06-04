@@ -35,12 +35,12 @@ const NavBar = () => {
 
                 <Link to="#" className="text-slate-500 hover:text-black" >
                     {/* User Icon */}
-                    <HiOutlineUser className="h-6 w-6" />
+                    <HiOutlineUser className="h-5 w-5" />
                 </Link>
 
-                <button className="relative text-slate-500 hover:text-black" >
+                <button className="relative text-slate-500 hover:text-black cursor-pointer" >
                     {/* Cart Icon */}
-                    <HiOutlineShoppingBag className="h-6 w-6" />
+                    <HiOutlineShoppingBag className="h-5 w-5" />
                     <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center" >
                         4
                     </span>
@@ -48,7 +48,7 @@ const NavBar = () => {
 
                 <button className="md:hidden text-slate-500 hover:text-black" >
                     {/* Menu Icon for Mobile */}
-                    <HiOutlineMenu className="h-6 w-6" />
+                    <HiOutlineMenu className="h-5 w-5" />
                 </button>
             </div>
         </nav>
