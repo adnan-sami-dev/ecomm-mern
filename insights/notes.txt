@@ -16,3 +16,12 @@
 * when using useState note that we are destructuring an array
   return, not an object, so this ( { value, setValue } = useState() )
   is wrong ; this ( [value, setValue ] = useState() ) is correct.
+
+* 'overflow-y-auto' on cart drawer content enables a scrollbar only when needed, 
+  letting users scroll through items while keeping the drawer’s height fixed.
+
+* used 'transition-colors' instead of 'transition' for slight performance advantages
+  ref: checkout button on cart drawer component
+
+* tracking-tight reduces the space between characters, 
+  making text appear more compact. In Tailwind, it sets [ letter-spacing: -0.025em; ].
