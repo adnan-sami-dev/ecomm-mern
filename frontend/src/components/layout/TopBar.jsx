@@ -4,8 +4,10 @@ import {RiTwitterXLine} from "react-icons/ri"
 
 const TopBar = () => {
     return (
-        <div className="bg-red-500 text-white " >
+        <div className="bg-slate-700 text-white " >
             <div className="container mx-auto flex flex-row justify-between items-center py-2 px-2" >
+                
+                
                 {/* Socials */}
                 <div className="hidden md:flex flex-row items-center gap-4">
                     <a href="#" className="hover:text-red-300" >
@@ -19,16 +21,21 @@ const TopBar = () => {
                     </a>
                 </div>
 
+
                 {/* Text */}
                 <div className="text-sm text-center flex-grow" >
                     <span>Free Shipping on Orders Over $50!</span>
                 </div>
+
+
                 {/* Buttons */}
                 <div className="hidden md:block text-sm">
                     <a href="tel:+1234567890" className="hover:text-red-300" >
                         Call Us
                     </a>
                 </div>
+
+
             </div>
         </div>
     )
