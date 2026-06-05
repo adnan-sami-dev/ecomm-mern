@@ -8,4 +8,11 @@
     —based on the size at which they will be displayed. 
     It ensures that text remains highly legible at tiny sizes and elegant at massive sizes
 
-* 
+* a common strategy to push sidebars (toggle on and off) is to use dynamic CSS:
+  ${ cartOpen? translate-x-0 : translate-x-full } 
+  > '0' implies moving the sidebar to it's original position
+  > 'full' implies moving it across its entire width (not the window width !)
+
+* when using useState note that we are destructuring an array
+  return, not an object, so this ( { value, setValue } = useState() )
+  is wrong ; this ( [value, setValue ] = useState() ) is correct.
