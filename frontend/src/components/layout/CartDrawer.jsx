@@ -5,8 +5,8 @@ import CartContents from '../cart/CartContents'
 const CartDrawer = ({ cartOpen, toggleCart }) => {
 
   return (
-    <div className={`fixed top-0 right-0 width-3/4 sm:w-1/2 
-    md:w-1/4 h-full bg-white shadow-lg flex flex-col z-50 
+    <div className={`fixed top-0 right-0 width-3/4 sm:w-1/2 lg:w-1/3
+    xl:w-1/4 h-full bg-white shadow-lg flex flex-col z-50 
     transform transition-transform duration-300
     ${cartOpen ? "translate-x-0" : "translate-x-full" }`}>
 

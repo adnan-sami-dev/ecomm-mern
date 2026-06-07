@@ -25,3 +25,13 @@
 
 * tracking-tight reduces the space between characters, 
   making text appear more compact. In Tailwind, it sets [ letter-spacing: -0.025em; ].
+
+* & vs && operators
+
+* can't call a state changer function inside a map method > unpredictable behaviour
+
+* you can mark an item as null inside the map method, and then filter it out for deleting it.
+  ref: <CartContents />
+
+* to link product listings to cart content, I lifted the cartItems state up to the parent
+  [ easier than contextAPI for testing the front-end ]
