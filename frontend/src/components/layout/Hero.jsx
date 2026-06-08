@@ -3,7 +3,8 @@ import heroVideo from '../../assets/videos/3205917-hd_1920_1080_25fps.mp4'
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-[50vh] md:h-screen overflow-hidden">
+        <div className="absolute top-0 z-[-1] sticky">
+            <section className="relative w-full h-[50vh] w-[100vw] md:h-screen overflow-hidden">
                 <video
                     src={heroVideo}
                     className="w-full h-screen object-cover"
@@ -20,7 +21,8 @@ const Hero = () => {
                         <button className="mt-6 backdrop-blur-sm inline-block px-6 py-3 bg-white/50 hover:bg-white/90 cursor-pointer text-black rounded-full font-medium">Shop Now</button>
                     </div>
                 </div>
-        </section>
+            </section>
+        </div>
     )
 }
 
