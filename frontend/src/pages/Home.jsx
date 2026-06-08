@@ -4,7 +4,7 @@ import Hero from '../components/layout/Hero'
 const Home = () => {
   return (
     <div>
-        <Hero />
+        <Hero className="sticky top-0" />
     </div>
   )
 }
