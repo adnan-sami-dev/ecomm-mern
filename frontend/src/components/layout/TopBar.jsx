@@ -5,7 +5,7 @@ import {RiTwitterXLine} from "react-icons/ri"
 const TopBar = () => {
     return (
         <div className="bg-slate-800 text-white " >
-            <div className="container mx-auto flex flex-row justify-between items-center py-2 px-2" >
+            <div className="mx-auto flex flex-row justify-between items-center py-2 px-2" >
                 
                 
                 {/* Socials */}
