@@ -4,10 +4,10 @@ import heroVideo from '../../assets/videos/3205917-hd_1920_1080_25fps.mp4'
 const Hero = () => {
     return (
         <div className="fixed top-0 z-[-1]">
-            <section className="relative w-full w-[100vw] h-screen overflow-hidden">
+            <section className="relative w-[100vw] h-screen overflow-hidden">
                 <video
                     src={heroVideo}
-                    className="w-full h-screen object-cover"
+                    className="w-full h-screen xl:w-[100vw] object-cover"
                     autoPlay
                     loop
                     muted
