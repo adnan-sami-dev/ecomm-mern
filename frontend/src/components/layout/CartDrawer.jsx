@@ -6,7 +6,7 @@ const CartDrawer = ({ cartOpen, toggleCart }) => {
 
   return (
     <div className={`fixed top-0 right-0 width-3/4 sm:w-1/2 lg:w-1/3
-    xl:w-1/4 h-full bg-white shadow-lg flex flex-col z-50 
+    xl:w-1/4 h-full bg-white/80 backdrop-blur-sm shadow-lg flex flex-col z-50 
     transform transition-transform duration-300
     ${cartOpen ? "translate-x-0" : "translate-x-full" }`}>
 
@@ -24,7 +24,7 @@ const CartDrawer = ({ cartOpen, toggleCart }) => {
         <CartContents />
       </div>
 
-      <div className="p-4 bg-slate-100 sticky bottom-0">
+      <div className="p-4 bg-slate-100/80 backdrop-blur-sm sticky bottom-0">
         <button className="w-full p-2 bg-slate-800 text-gray-100 text-sm font-medium rounded-full 
         hover:bg-slate-700 cursor-pointer transition-colors duration-200 mb-2" >
           Checkout
