@@ -19,7 +19,7 @@ const Collections = () => {
                 </div>
             </div>
             <div className="relative">
-                <button className="z-1 text-sm md:text-base lg:text-lg xl:text-xl bg-white/50 backdrop-blur-sm py-2 px-5 hover:bg-white/75 cursor-pointer absolute rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <button className="z-1 text-base lg:text-lg xl:text-xl bg-white/50 backdrop-blur-sm py-2 px-5 hover:bg-white/75 cursor-pointer absolute rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <span>His</span>
                 </button>
                 <div className="overflow-hidden">
